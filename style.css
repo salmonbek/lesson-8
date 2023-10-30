@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--gray, #969696);
+    font-family: PT Sans;
+    font-size: 12px;
+    font-weight: 400;
+
+}
+
+.right {
+    display: flex;
+    gap: 15px;
+    color: var(--gray, #969696);
+    text-align: right;
+    font-family: PT Sans;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+header {
+    padding-top: 15px;
+    background-color: #000;
+    position: sticky;
+
+}
+
+.bottom {
+
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 405px;
+    background: #0F0F0F;
+    color: #FFF;
+    font-family: Post No Bills Jaffna;
+    font-size: 36px;
+    font-weight: 700;
+
+
+}
+
+.nav-items {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    gap: 40px;
+    font-family: PT Sans;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.images {
+    display: flex;
+    gap: 30px;
+}
+
+.left {
+    margin-left: 489px;
+    color: #FFF;
+
+}
+
+.right {
+    margin-right: 10px;
+    color: var(--gray, #969696);
+
+}
+
+.asu {
+    color: var(--gray, #969696);
+}
+
+.middle {
+    margin-right: 40px;
+    color: var(--gray, #969696);
+}
+
+.asu {
+    background-image: Rectangle 3;
+}
+
+.text {
+    justify-content: center;
+    align-items: center;
+}
